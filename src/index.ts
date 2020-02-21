@@ -250,7 +250,7 @@ export class UndefinedType extends Type<undefined> {
   constructor() {
     super(
       'undefined',
-      (u): u is undefined => u === void 0,
+      (u): u is undefined => u === undefined,
       (u, c) => (this.is(u) ? success(u) : failure(u, c)),
       identity
     )
