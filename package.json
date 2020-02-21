@@ -1,5 +1,5 @@
 {
-  "name": "io-ts",
+  "name": "@rlvt/io-ts",
   "version": "2.1.1",
   "description": "TypeScript compatible runtime type system for IO validation",
   "files": [
